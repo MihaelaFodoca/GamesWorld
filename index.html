@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games World</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            background-color: rgb(235, 235, 235);
+        }
+    </style>
+</head>
+
+<body onunload="">
+    <section id="add-game-wrapper">
+        <label for="title-field">Title: </label><br>
+        <input type="text" id="title-field" name="title-field" /><br>
+        <label for="description-field">Description: </label><br>
+        <input type="text" id="description-field" name="description-field" /><br>
+        <label for="image-field">Image: </label><br>
+        <input type="text" id="image-field" name="image-field" /><br>
+        <label for="releaseDate-field">Release date: </label><br>
+        <input type="text" id="releaseDate-field" name="releaseDate-field" /><br>
+        <label for="genre-field">Genre: </label><br>
+        <input type="text" id="genre-field" name="genre-field" /><br>
+        <label for="publisher-field">Publisher: </label><br>
+        <input type="text" id="publisher-field" name="publisher-field" /><br><br>
+        <input type="button" id="add-game" value="Add new game"><br>
+
+    </section>
+
+    <section id="update-game-wrapper">
+        <label for="title-field">Title: </label><br>
+        <input type="text" id="update-title-field" name="title-field" /><br>
+        <label for="description-field">Description: </label><br>
+        <input type="text" id="update-description-field" name="description-field" /><br>
+        <label for="image-field">Image: </label><br>
+        <input type="text" id="update-image-field" name="image-field" /><br>
+        <label for="releaseDate-field">Release date: </label><br>
+        <input type="text" id="update-releaseDate-field" name="releaseDate-field" /><br>
+        <label for="genre-field">Genre: </label><br>
+        <input type="text" id="update-genre-field" name="genre-field" /><br>
+        <label for="publisher-field">Publisher: </label><br>
+        <input type="text" id="update-publisher-field" name="publisher-field" /><br><br>
+        <input type="button" id="update-game" value="Update game"><br>
+
+    </section>
+    <input type="button" id="create_game" value="Create a new game">
+
+    <input type="button" id="regenerate_games" value="Regenerate games"><br>
+
+    <div id="games_container">
+
+    </div>
+
+    <script src="JS/models.js"></script>
+    <script src="JS/views.js"></script>
+</body>
+
+</html>

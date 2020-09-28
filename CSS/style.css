@@ -1,0 +1,288 @@
+#add-game-wrapper{
+    display: none;
+}
+#update-game-wrapper{
+    display: none;
+}
+
+.game_wrapper{
+    padding-top: 15px;
+    display: flex;
+    background-color:white;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 7px;
+}
+.game_wrapper img{
+    width: 240px;
+    height: 250px;
+    border-radius: 7px;
+}
+#box1{
+    width:800px;
+    padding-left: 20px;
+    padding-right: 30px;
+
+}
+#buttons{
+    width: 250px;
+    margin: 20px;
+}
+.details{
+    background-color: rgb(105, 255, 193);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 18px;
+   margin: auto;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+
+}
+    
+  .update{
+        background-color: hotpink;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 18px;
+   margin: auto;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+    }
+        .delete{
+            background-color: rgb(105, 120, 255);
+            text-decoration: none;
+    text-align: center;
+    padding-top: 18px;
+   margin: auto;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+
+}
+#details_box{
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+          background-color: rgb(235, 235, 235);
+
+}
+#update_box{
+    height: 40px;
+    background-color:  white;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+
+}
+#delete_box{
+    height: 40px;
+    background-color:  white;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+
+}
+#delete_box:hover{
+    background-color: rgb(236, 11, 11);
+    color: white;
+}
+
+#details_box:hover{
+    background-color: rgb(67, 68, 67);
+    color: white;
+}
+#update_box:hover{
+    background-color: rgb(67, 68, 67);
+    color: white;
+}
+
+#box1 p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#box1 h3{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#create_game{
+    padding: 10px;
+    width: 200px;
+    align-content: space-around;
+    margin-left: 450px;
+    margin-bottom:  15px;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 18px;
+border-radius: 5px;
+background-color: white;
+border-color: rgb(250, 247, 247);
+}
+#create_game:hover{
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+#regenerate_games{
+    padding: 10px;
+    width: 200px;
+    align-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 18px;
+border-radius: 5px;
+background-color: white;
+border-color: rgb(250, 247, 247);
+
+}
+#regenerate_games:hover{
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+#add-game-wrapper{
+    margin-left: 450px;
+}
+#title-field{
+  width: 400px;
+  padding: 7px;
+  border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+}
+#description-field{
+    width: 400px;
+    padding: 7px;
+    border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+  }
+  #image-field{
+    width: 400px;
+    padding: 7px;
+    border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+  }
+  #releaseDate-field{
+    width: 400px;
+    padding: 7px;
+    border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+  }#genre-field{
+    width: 400px;
+    padding: 7px;
+   border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+  }
+  #publisher-field{
+    width: 400px;
+    padding: 7px;
+    border-color: rgb(241, 238, 238);
+   margin: 1px;
+   border-radius: 7px;
+  }
+  #add-game{
+      margin-left:150px;
+      padding: 5px;
+      background-color: rgb(68, 68, 68);
+      color: white;
+   border-radius: 7px;
+
+  }
+  #image img{
+      width: 550px;
+      height: 500px;
+  }
+  #game_details{
+      margin-top: 40px;
+     
+      display: flex;
+      background-color:rgb(247, 245, 245); ;
+  }
+  #title-description h3{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+
+  }
+  #title-description p{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+      }
+  #desc{
+      margin-left: 25px;
+      margin-right: 40px;
+  }
+  #genre-publisher{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+  }
+  #back{
+    background-color:rgb(235, 235, 235);;
+      text-decoration: none;
+      padding: 10px;
+      color: black;
+      border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 5px;
+margin-left: 600px;
+font-weight: bold;
+  }
+  #back:hover{
+      background-color: rgb(68, 68, 68);
+      color:white;
+  }
+  #update-title-field{
+    width: 400px;
+    padding: 7px;
+    border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+  }
+  #update-description-field{
+      width: 400px;
+      padding: 7px;
+      border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+    }
+    #update-image-field{
+      width: 400px;
+      padding: 7px;
+      border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+    }
+    #update-releaseDate-field{
+      width: 400px;
+      padding: 7px;
+      border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+    }#update-genre-field{
+      width: 400px;
+      padding: 7px;
+     border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+    }
+    #update-publisher-field{
+      width: 400px;
+      padding: 7px;
+      border-color: rgb(241, 238, 238);
+     margin: 1px;
+     border-radius: 7px;
+    }
+    #update-game-wrapper{
+        margin-left: 450px;
+    }
+    #update-game{
+        margin-left:150px;
+        padding: 5px;
+        background-color: rgb(68, 68, 68);
+        color: white;
+     border-radius: 7px;
+  
+    }
